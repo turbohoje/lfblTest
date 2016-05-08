@@ -1,0 +1,22 @@
+body {
+  padding-top: 50px;
+}
+
+.businessName{
+	font-weight: bold;
+}
+.businessAddress{
+	font-size:11px;
+}
+
+.businessPhone{
+	font-size:12px;
+}
+
+.businessUrl{
+	font-size:11px;
+}
+
+.businessReviewUrl{
+	font-size:11px;
+}
