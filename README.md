@@ -1,9 +1,16 @@
+# N Infra Docs
+
+General docs for all infra / SRE initiatives.
+
+This doc comes from the deprecated [eBay N
+SRE](https://docs.google.com/document/d/1eyxFFPYLIZrxU2UX38-2z09OGTgKo5Y53kLKPJpjIr4/edit#)
+
 ## Projects
 
 Project | Description | Owners
 ------- | ----------- | ------
-infra-docs | Infra docs and maintenance history | All SRE
-infra-drone | New Drone-based pipeline. The goal is to migrate to this by the end of Feb 2017.|Paul, jsw, Punit
+[infra-docs](/N/infra-docs) | Infra docs and maintenance history | All SRE
+[infra-drone](/N/infra-drone) | New Drone-based pipeline. The goal is to migrate to this by the end of Feb 2017.|Paul, jsw, Punit
 infra-terraform|Terraform manages GCP Projects (see inspiration)|Paul, Punit
 infra-monitoring|Prometheus resources for cluster monitoring|Paul
 infra-vault|Not yet running. We need Vault to store secrets in clusters. The repo is stale and should be updated to use StatefulSets.|Christophe, Jack
@@ -14,3 +21,9 @@ Old Jenkins pipeline|Current Jenkins-based pipeline that almost all projects are
 IAM via Google Groups|Users should join / be invited the appropriate Google Groups. These are used to set group-wide permissions in Terraform, e.g. this rule makes all n-eng members Editors on the ebay-nsync project.|Punit, Paul, Christophe
 K8S Ingress with https|Re-investigate K8S Ingress with https support in K8S 1.5.x, especially since we are not running multi-region apps. Then use Terraform to create the DNS record.
 
+
+
+
+## History
+
+See `history/` for log of infra maintenance.
